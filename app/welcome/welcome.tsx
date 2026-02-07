@@ -132,18 +132,24 @@ const styles = {
     marginBottom: "8px"
   },
 
-  title: {
-    margin: "6px 0",
-    fontSize: "22px",
-    fontWeight: "700"
-  },
+ title: {
+  margin: "6px 0",
+  fontSize: "22px",
+  fontWeight: "700",
+  color: "#111",          // ✅ strong black
+  letterSpacing: "0.3px",
+  textAlign: "center"
+},
 
-  question: {
-    margin: "14px 0 24px",
-    fontSize: "16px",
-    lineHeight: "1.5",
-    padding: "0 6px"
-  },
+question: {
+  margin: "14px 0 24px",
+  fontSize: "16px",
+  lineHeight: "1.6",
+  padding: "0 6px",
+  color: "#222",          // ✅ soft black (better than pure #000)
+  textAlign: "center"
+},
+
 
   // button wrapper (fixed area so NO button moves safely)
 btnWrap: {
